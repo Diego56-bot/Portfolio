@@ -1,0 +1,18 @@
+Indice = 0
+<Lista> Lista_super = ["tomate","queso","lechuga","leche","huevo"]
+Añadir(Lista_super, nuevo_elemento)
+Elemento_encontrado = Falso
+Elemento_a_buscar = queso
+Para cada elemento en Lista_super, hacer:
+    Si Elemento_a_buscar = elemento, entonces:
+        Elemento_encontrado = Verdadero
+        Salir del bucle
+    FinSi
+fin Para
+Para cada elemento en Lista_super, hacer:
+    Imprimir (elemento)
+Fin Para
+Clave = 3
+Eliminar(Lista_super, Clave)
+
+

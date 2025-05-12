@@ -1,4 +1,20 @@
-1)
+public class TElementoAB<T> implements IElementoAB<T> {
+    private Comparable etiqueta;
+    private TElementoAB<T> hijoIzq;
+    private TElementoAB<T> hijoDer;
+    private T datos;
+
+    @Override
+    public Comparable getEtiqueta() {
+        return etiqueta;
+    }
+
+    public TElementoAB(Comparable unaEtiqueta, T unosDatos) {
+        etiqueta = unaEtiqueta;
+        datos = unosDatos;
+    }
+
+}1)
 Algoritmo PoneEnCola(unElemento)
     Si la cola está llena Entonces
         Imprimir: "La cola está llena"

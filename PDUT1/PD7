@@ -1,0 +1,24 @@
+1. True
+
+2. False
+
+Fuentes:
+
+Oracle Java Docs: https://docs.oracle.com/javase/8/docs/api/java/lang/String.html#equals-java.lang.Object-
+
+Baeldung: "Comparing Strings in Java"
+
+Versión Correscta del código de la parte 1:
+
+String s = "1";
+while (!s.equals("1000")) {
+    s += "0";
+}
+Usando intern():
+
+
+String s = "1";
+while (s.intern() != "1000") {
+    s += "0";
+}
+intern() fuerza a que el string esté en el pool, útil para comparar con == si ambos están internados.

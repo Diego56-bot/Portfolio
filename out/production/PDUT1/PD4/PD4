@@ -1,0 +1,24 @@
+1)
+Variable de clase: x
+Variable de instancia: y
+
+Imprime:
+a.y = 5
+b.y = 6
+a.x = 2
+b.x = 2
+IdentifyMyParts.x = 2
+
+2)
+Error: myRect no fue inicializado. Falta new Rectangle();
+
+3)
+a)
+Referencias: 2 (students[0] y studentName = mismo objeto)
+Luego de studentName = null, queda 1 referencia (students[0]).
+Ningún objeto es recolectado.
+
+b)
+
+El objeto se destruye cuando no hay referencias activas hacia él: el GC lo elimina automáticamente.
+

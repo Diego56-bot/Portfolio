@@ -1,0 +1,35 @@
+Pseudocodigo:
+
+función construirRedElectricaOptima(grafo):
+    visitados ← lista
+    mst ← lista vacía de aristas
+    nodoInicial ← cualquier nodo del grafo
+    agregar nodoInicial a visitados
+
+    mientras longitud(visitados) < cantidadDeNodos(grafo):
+        aristaMinima ← arista de menor peso que conecte un nodo de la lista visitados con un nodo que no esté en la lista
+        agregar aristaMinima a mst
+        nodoNuevo ← nodo conectado por aristaMinima que no esté en visitados
+        agregar nodoNuevo a visitados
+
+    devolver mst
+Fin función
+
+Lenguaje Natural:
+
+Primero se elige una casa cualquiera como punto de inicio y se la agrega a una lista de casas visitadas.
+ A partir de ahí, mientras no se hayan visitado todas las casas, se busca la conexión más corta posible
+ que una una casa ya visitada con otra que aún no. Esa conexión se agrega a
+ la lista de conexiones necesarias, y la nueva casa se marca como visitada.
+ Esto se repite hasta que todas las casas estén conectadas, siempre eligiendo la
+ conexión más corta disponible en cada paso. Al final, se obtiene una lista de conexiones
+ que une todas las casas utilizando la menor cantidad de cable posible y sin generar ciclos.
+ Básicamente, Primm llevado a casas visitadas
+
+ Tiempo: 0(N^2)
+
+
+
+
+
+

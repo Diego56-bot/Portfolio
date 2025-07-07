@@ -1,0 +1,3 @@
+La clase más apropiada es HashMap
+Ya que tiene muchas operaciones útiles como de buscar, insertar, entre otras con un orden eficiente de O(1)
+También evita duplicados gracias a que cada clave tiene un valor único

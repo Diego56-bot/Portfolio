@@ -1,0 +1,17 @@
+b) Cálculo de memoria consumida:
+
+presionSanguinea: 2 bytes
+
+frecuenciaCardiaca: 2 bytes
+
+nivelAzucar: 2 bytes
+
+maximaFuerza: 8 bytes
+
+minimoTiempoEntreLatidos: 4 bytes
+
+bateriaRestante: 4 bytes
+
+codigoFabricante: 8 chars × 2 bytes por char = 16 bytes
+
+Total: 38 bytes

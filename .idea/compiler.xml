@@ -2,7 +2,7 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <bytecodeTargetLevel>
-      <module name="PD_UT7" target="" />
+      <module name="PDUT7" target="" />
       <module name="Portfolio" target="" />
     </bytecodeTargetLevel>
   </component>

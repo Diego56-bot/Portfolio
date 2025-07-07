@@ -1,0 +1,3 @@
+Manifest-Version: 1.0
+X-COMMENT: PD1.Main-Class will be added automatically by build
+

@@ -1,4 +1,4 @@
 # Portfolio
 Todo lo dado en Algoritmos y estructuras de datos
 
-Link al repo: https://github.com/Diego56-bot/Portfolio
+Aviso que acá hay varios pds que no están en las entregas de los mismos. Lo mismo con las reflexiones

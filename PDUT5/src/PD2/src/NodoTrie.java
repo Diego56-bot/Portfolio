@@ -33,7 +33,7 @@ public class NodoTrie {
         if (nodo.esPalabra) {
             System.out.println(palabraActual + " " + nodo.paginas);
         }
-        for (int i = 0; i < 26; i++) { /* recorre todos los hijos */
+        for (int i = 0; i < 26; i++) {
             if (nodo.hijos[i] != null) {
                 char siguienteLetra = (char) ('a' + i);
                 construirIndice(nodo.hijos[i], palabraActual + siguienteLetra); /*Crea la palabra*/

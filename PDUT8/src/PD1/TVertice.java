@@ -105,17 +105,17 @@ public class TVertice<T> implements IVertice {
     }
 
     @Override
-    public TCaminos todosLosCaminos(Comparable etVertDest, TCamino caminoPrevio, TCaminos todosLosCaminos) {
+    public TCaminos todosLosCaminos(Comparable etVertDest, TCamino anteriorCamino, TCaminos todosLosCaminos) {
         for (Object o: this.getAdyacentes()) {
             TAdyacencia adyacencia=(TAdyacencia) o;
             TVertice destino=(TVertice) adyacencia.getDestino();
             if (!destino.getVisitado()) {
                 if (destino.getEtiqueta().compareTo(etVertDest) == 0) {
-                    TCamino copia=caminoPrevio.copiar();
+                    TCamino copia=anteriorCamino.copiar();
                     copia.agregarAdyacencia(adyacencia);
                     todosLosCaminos.getCaminos().add(copia);
                 } else {
-                    TCamino copia=caminoPrevio.copiar();
+                    TCamino copia=anteriorCamino.copiar();
                     copia.agregarAdyacencia(adyacencia);
                     destino.todosLosCaminos(etVertDest, copia, todosLosCaminos);
                 }

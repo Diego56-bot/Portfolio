@@ -1,6 +1,4 @@
-import PD1.TArista;
-import PD1.TGrafoNoDirigido;
-import PD1.TVertice;
+package PD1;
 
 import java.util.LinkedList;
 import java.util.List;
@@ -23,10 +21,12 @@ public static void main(String[] args) {
 
     TGrafoNoDirigido mst = grafo.Prim();
 
-    System.out.println("Resultado Prim:");
+    System.out.println("Resultado del Prim:");
     for (TArista arista : mst.getLasAristas()) {
         System.out.println(arista.getEtiquetaOrigen() + " - " +
                 arista.getEtiquetaDestino() + " : " +
                 arista.getCosto());
     }
+
+
 }

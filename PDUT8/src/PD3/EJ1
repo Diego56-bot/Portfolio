@@ -20,7 +20,7 @@ Lenguaje Natural:
 Primero se elige una casa cualquiera como punto de inicio y se la agrega a una lista de casas visitadas.
  A partir de ahí, mientras no se hayan visitado todas las casas, se busca la conexión más corta posible
  que una una casa ya visitada con otra que aún no. Esa conexión se agrega a
- la lista de conexiones necesarias, y la nueva casa se marca como visitada.
+ la lista de conexiones necesarias, y la nueva se marca como visitada.
  Esto se repite hasta que todas las casas estén conectadas, siempre eligiendo la
  conexión más corta disponible en cada paso. Al final, se obtiene una lista de conexiones
  que une todas las casas utilizando la menor cantidad de cable posible y sin generar ciclos.

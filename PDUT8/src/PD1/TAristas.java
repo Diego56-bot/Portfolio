@@ -3,7 +3,7 @@ import java.util.Collection;
 
 import java.util.LinkedList;
 
-public class TAristas extends LinkedList<PD3.TDA.TArista> {
+public class TAristas extends LinkedList<TArista> {
 
     private final static String SEPARADOR_ELEMENTOS_IMPRESOS = "-";
     //private Collection<TArista> aristas  = new LinkedList<TArista>();
